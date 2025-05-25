@@ -64,7 +64,7 @@ class status:
         if 0 <= self.emotion < 1:
             return "sad day"
         if 0 <= self.energy < 1:
-            return "tire day"
+            return "tired day"
         return "ordinary day"
 
     # Avoid the invalid
